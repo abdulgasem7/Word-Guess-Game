@@ -38,7 +38,7 @@ var chosenWord = wordArray[pickWord];
 
 
 
-// // Add Underscore randomly selected word characters
+ // Add Underscore randomly selected word characters
 var generateUnderscore = () => {
     for (var i = 0; i < chosenWord.length; i++) {
         underScore.push('_');
@@ -58,13 +58,11 @@ document.addEventListener("keypress", (event) => {
 });
 
 
-// domGuesses.textContent = guessLeft;
-// domPlaceHolder.textContent = pickWordPlaceholder.join("");
-// domGuessedLetters.textContent = incorrectLetterBank;
+// domNumGuesses.textContent = guessLeft;
+// domPlaceHolder.textContent = generateUnderscore.join("");
+// domGuessedLetters.textContent = wrongWord;
 
-// }
 
-// var leftoverLetters = randWord.length;
 // <!-- create hint image and change image once word is guessed correctly -->
 // <!-- add number of attempts, display game over after 12 attempts-->
 // <!-- add audio for game -->
